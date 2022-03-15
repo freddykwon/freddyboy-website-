@@ -1,0 +1,26 @@
+.form {
+    display: inline-block
+}
+
+.columns {
+    margin: 2rem !important;
+}
+
+#nameForm, #emailForm, #textForm, #submitForm {
+    font-family: 'Syne', sans-serif;
+}
+
+#submitForm {
+    background-color: #D46240;
+    /* color: black; */
+}
+#sayHello {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+    margin-bottom: 5rem;;
+}
+

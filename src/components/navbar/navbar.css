@@ -1,0 +1,12 @@
+#fbLogo {
+    width: 85px;
+    height: auto;
+    margin: 1rem;
+}
+
+.navOptions {
+    font-family: 'Black Han Sans', sans-serif;
+    color: black;
+    height: 100px;
+    line-height: 100px;
+}

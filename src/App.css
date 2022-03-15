@@ -1,0 +1,24 @@
+html, #navbar, #fbLogo, #navBarResp{
+  background: #F9E26E !important;
+}
+
+.App {
+  background-color: #F9E26E;
+  text-align: center;
+}
+
+#mainShape {
+  width: 350px;
+  height: auto;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
