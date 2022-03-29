@@ -23,7 +23,7 @@ const Navbar = (props) => {
                     <div className="navbar-item">
                         <div className="field is-grouped">
                             <p className="control">
-                                <Link className="navOptions" to="/music">Music</Link>
+                                <Link id="musicNav" className="navOptions" to="/music">Music</Link>
                             </p>
                             <p className="control">
                                 <Link className="navOptions" to="/merch">Merch</Link>
