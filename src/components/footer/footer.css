@@ -4,6 +4,12 @@
 
 
 .socials {
+    display: inline-block;
+    transition: transform .3s;
     width:25px;
     height:auto;
+}
+
+.socials:hover {
+    transform: scale(1.2);
 }
