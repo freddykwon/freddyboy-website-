@@ -8,3 +8,18 @@
 .bandCamp {
 border: 0; width: 400px; height: 241px; margin: 25px
 }
+
+.otherWorks {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+    margin-bottom: 5rem;;
+    -webkit-user-drag: none;
+}
+
+.noDrag {
+    -webkit-user-drag: none;
+}
