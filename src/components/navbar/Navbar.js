@@ -1,44 +1,31 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 import FreddyboyLogo from '../imgs/freddyboylogo.png';
 import FreddyboyGif from '../imgs/fb_logo.gif'
 import './navbar.css';
 import { Link } from 'react-router-dom';
 
-const Navbar = (props) => {
+const Navigation = () => {
     return (
-        <nav className="navbar is-transparent">
-            <div id="navBarResp" className="navbar-brand">
+        <Navbar className="myYellow" variant="light" sticky="top" expand="lg" collapseOnSelect>
+            <Navbar.Brand>
                 <Link to="/">
                     <img id="fbLogo" className="static" src={FreddyboyLogo} alt="freddyboy" />
                     <img id="fbgif" className="active" src={FreddyboyGif} alt="freddyboy gif" />
                 </Link>
-                <div className="navbar-burger" data-target="navbar">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
+            </Navbar.Brand>
 
-            <div id="navbar" className="navbar-menu">
-
-                <div className="navbar-end">
-                    <div className="navbar-item">
-                        <div className="field is-grouped">
-                            <p className="control">
-                                <Link id="musicNav" className="navOptions" to="/music">Music</Link>
-                            </p>
-                            <p className="control">
-                                <Link className="navOptions" to="/merch">Merch</Link>
-                            </p>
-                            <p className="control">
-                                <Link className="navOptions" to="/contact">Contact</Link>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav >
-    )
+            <Navbar.Toggle />
+            <Navbar.Collapse>
+                <Nav className="navbar-end">
+                    <Nav.Link href="/music" className="navOptions">Music</Nav.Link>
+                    <Nav.Link href="/merch" className="navOptions">Merch</Nav.Link>
+                    <Nav.Link href="/contact" className="navOptions">Contact</Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar >
+    );
 }
 
-export default Navbar;
+export default Navigation;

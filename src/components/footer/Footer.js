@@ -11,7 +11,7 @@ const Footer = (props) => {
     return (
         <footer className="footer">
             <div className="content has-text-centered">
-                <p>
+                <p className="socialBar">
                     <a href="https://www.instagram.com/freddyboythings/" target="_blank">
                         <img className="socials" src={InstagramPic} alt="spotify logo" />
                     </a>

@@ -1,1 +1,41 @@
-import React from 'react';
+.a {
+    vertical-align: middle !important;
+}
+
+.allWorks {
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+#cvTable {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0);
+    width: 75%;
+    /* border: none; */
+}
+
+.borderless td,
+.borderless th {
+    border: none;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    /* display: block; */
+}
+
+@media (max-width: 575.98px) {
+    .allWorks {
+        font-size: 10px;
+        vertical-align: middle;
+    }
+
+    .logo {
+        width: 100px;
+        height: auto;
+        padding-bottom: 1rem;
+        /* display: block; */
+    }
+}

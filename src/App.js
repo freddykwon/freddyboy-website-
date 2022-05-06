@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/navbar/Navbar';
+import Navigation from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import 'bulma/css/bulma.min.css';
 import './App.css';
@@ -8,6 +8,7 @@ import Home from './components/pages/HomePage';
 import Music from './components/pages/MusicPage';
 import Merch from './components/pages/MerchPage';
 import Contact from './components/pages/ContactPage';
+import SideWork from './components/pages/OtherWorks';
 
 
 const App = () => {
@@ -15,12 +16,13 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="App">
-        <Navbar />
+        <Navigation />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/music' element={<Music />} />
           <Route path='/merch' element={<Merch />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/otherworks' element={<SideWork />} />
         </Routes>
         <Footer />
       </div>

@@ -1,7 +1,11 @@
 .footer {
-    background: #FFF0C5 !important;
+    background:rgba(255, 240, 197, 0) !important;
+    /* opacity: 0; */
+    position: fixed;
+    padding: 100px;
+    bottom: 0;
+    width: 100%;
 }
-
 
 .socials {
     display: inline-block;

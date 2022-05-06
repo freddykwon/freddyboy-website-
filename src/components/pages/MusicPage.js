@@ -26,9 +26,9 @@ const Music = () => {
             </div>
             <div>
                 <Draggable axis="y">
-                    <a href="" className="noDrag" style={{ position: 'absolute', bottom: '50px', right: '50px', cursor: 'grab' }}>
+                    <Link to="/otherworks" className="noDrag" style={{ position: 'absolute', bottom: '50px', right: '50px', cursor: 'grab' }}>
                         <img className="otherWorks noDrag" src={OtherWorks} />
-                    </a>
+                    </Link>
                 </Draggable>
             </div>
         </section>
