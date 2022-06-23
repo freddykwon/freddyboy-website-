@@ -1,5 +1,5 @@
 import React from 'react';
-import Shape from '../imgs/main_shape.png'
+import Shape from '../imgs/onAndOnExample-01.png'
 
 const Home = () => {
     return (

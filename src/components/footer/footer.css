@@ -1,8 +1,9 @@
 .footer {
-    background:rgba(255, 240, 197, 0) !important;
+    background: rgba(255, 240, 197, 0) !important;
     /* opacity: 0; */
-    position: fixed;
-    padding: 100px;
+    padding: 2rem !important;
+    margin-top: auto;
+    /* padding: 100px; */
     bottom: 0;
     width: 100%;
 }
@@ -10,8 +11,8 @@
 .socials {
     display: inline-block;
     transition: transform .3s;
-    width:25px;
-    height:auto;
+    width: 25px;
+    height: auto;
 }
 
 .socials:hover {
