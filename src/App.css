@@ -1,16 +1,16 @@
 html, #navbar, #fbLogo, #navBarResp{
-  background: #FFF0C5 !important;
+  background: #003699 !important;
 }
-
+/* //#FFF0C5 */
 .App {
-  background-color: #FFF0C5;
+  background-color: #003699;
   text-align: center;
 }
 
-#mainShape {
+/* #mainShape {
   width: 350px;
   height: auto;
-}
+} */
 
 .App-header {
   min-height: 100vh;

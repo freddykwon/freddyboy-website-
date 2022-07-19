@@ -1,10 +1,7 @@
 import React from 'react';
-import InstagramPic from '../imgs/instagram.png';
-import SpotifyPic from '../imgs/spotify.png';
-import ApplePic from '../imgs/apple.png';
-import SoundcloudPic from '../imgs/soundcloud.png'
-import BandcampPic from '../imgs/bandcamp.png'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faSpotify, faBandcamp, faSoundcloud } from "@fortawesome/free-brands-svg-icons";
 import './footer.css'
 
 const Footer = (props) => {
@@ -13,19 +10,16 @@ const Footer = (props) => {
             <div className="content has-text-centered">
                 <p className="socialBar">
                     <a href="https://www.instagram.com/freddyboythings/" target="_blank">
-                        <img className="socials" src={InstagramPic} alt="spotify logo" />
+                        <FontAwesomeIcon className="socials" icon={faInstagram} />
                     </a>
                     <a href="https://open.spotify.com/artist/26PRP43YrFQF1Z2nk52OXj?si=0PzZNyZyR86pHbsmEpKN7g" target="_blank">
-                        <img className="socials" src={SpotifyPic} alt="spotify logo" />
-                    </a>
-                    <a href="https://music.apple.com/ca/artist/freddyboy/1498472185" target="_blank">
-                        <img className="socials" src={ApplePic} alt="apple music logo" />
-                    </a>
-                    <a href="https://soundcloud.com/freddyboythings" target="_blank">
-                        <img className="socials" src={SoundcloudPic} alt="soundcloud logo" />
+                        <FontAwesomeIcon className="socials" icon={faSpotify} />
                     </a>
                     <a href="https://freddyboy.bandcamp.com/" target="_blank">
-                        <img className="socials" src={BandcampPic} alt="bandcamp logo" />
+                        <FontAwesomeIcon className="socials" icon={faBandcamp} />
+                    </a>
+                    <a href="https://soundcloud.com/freddyboythings" target="_blank">
+                        <FontAwesomeIcon className="socials" icon={faSoundcloud} />
                     </a>
                 </p>
             </div>
@@ -33,3 +27,5 @@ const Footer = (props) => {
     )
 }
 export default Footer;
+
+

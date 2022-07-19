@@ -1,5 +1,5 @@
 .myYellow {
-    background-color: #FFF0C5 !important;
+    background-color: #003699!important;
 }
 
 #fbLogo,
@@ -24,9 +24,9 @@
     transition: transform .3s;
     font-family: obviously, sans-serif;
     font-weight: 800;
-    font-size: 1.2rem;
+    font-size: 1 rem;
     font-style: normal;
-    color: black !important;
+    color: white !important;
     height: 100px;
     line-height: 100px;
 }
