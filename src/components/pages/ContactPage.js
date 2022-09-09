@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import SayHello from '../imgs/contact.png'
 import './ContactPage.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/cfde67a0-11b7-11ed-bc91-695741f28ee9"; // TODO - fill on the later step
 
@@ -23,7 +22,11 @@ const ContactForm = () => {
     }
 
     return (
-        <div className="container">
+        <>
+        <div id="contactMe">
+            Say hi at&nbsp; <a id="email" href="mailto:fredsckwon@gmail.com">fredsckwon@gmail.com</a>
+        </div>
+        <div id="contactForm" className="container">
             <div className="columns is-centered">
                 <form className="form"
                     action={FORM_ENDPOINT}
@@ -80,6 +83,7 @@ const ContactForm = () => {
                 </form>
             </div>
         </div>
+        </>
     );
 };
 
