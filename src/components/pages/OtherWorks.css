@@ -1,16 +1,31 @@
+
 .a {
     vertical-align: middle !important;
+    /* color: white !important; */
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #35ff69;
 }
 
 .allWorks {
     font-size: 13px;
     vertical-align: middle;
+    /* background-color: lightblue; */
+}
+
+.content, th {
+    color: white !important;
 }
 
 #cvTable {
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #003699;
     width: 75%;
     /* border: none; */
 }

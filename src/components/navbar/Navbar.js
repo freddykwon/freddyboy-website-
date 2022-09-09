@@ -20,8 +20,8 @@ const Navigation = () => {
             <Navbar.Collapse>
                 <Nav className="navbar-end">
                     <Nav.Link href="/music" className="navOptions">music</Nav.Link>
-                    <Nav.Link href="https://freddyboy.bandcamp.com/album/vignette002" target="_blank" className="navOptions">merch</Nav.Link>
                     <Nav.Link href="/about" className="navOptions">about</Nav.Link>
+                    <Nav.Link href="https://spiritgoth.com/products/sg33-freddyboy-vignette002" target="_blank" className="navOptions">merch</Nav.Link>
                     <Nav.Link href="/contact" className="navOptions">contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>

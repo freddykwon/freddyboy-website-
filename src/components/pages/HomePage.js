@@ -1,15 +1,16 @@
-import React from 'react';
-import Shape from '../imgs/onAndOnExample-01.png'
-import './HomePage.css';
+import React, {useEffect} from 'react';
+import Shape from '../imgs/onandon_single_art_v1.png'
+import './HomePage.css'; 
+import Hover from 'react-3d-hover';
 
 const Home = () => {
     return (
         <div class="columns is-centered">
-            <section class="section">
-                <figure id="mainShape">
-                    <img id="cover" src={Shape} />
-                </figure>
-            </section>
+            <Hover speed={500} perspective={800} max={25}>
+                <a href="https://linktr.ee/freddyboythings" target="_blank">
+                    <img className="cover"src={Shape} />
+                </a>
+            </Hover>
         </div>
     )
 }

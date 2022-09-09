@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import SayHello from '../imgs/contact.png'
 import './ContactPage.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const FORM_ENDPOINT = "https://public.herotofu.com/v1/3f070630-a3f6-11ec-975b-f9cc2b0e6900"; // TODO - fill on the later step
+const FORM_ENDPOINT = "https://public.herotofu.com/v1/cfde67a0-11b7-11ed-bc91-695741f28ee9"; // TODO - fill on the later step
 
 const ContactForm = () => {
     const [submitted, setSubmitted] = useState(false);
@@ -36,32 +37,29 @@ const ContactForm = () => {
                             <div className="field-body">
                                 <div className="field">
                                     <p className="control is-expanded has-icons-left">
-                                        <input id="nameForm" className="input" type="text" placeholder="Name" required />
-                                        <span className="icon is-small is-left">
-                                            <i className="fa fa-user"></i>
-                                        </span>
+                                        <input id="nameForm" className="input" type="text" placeholder="Name" name="name" required />
                                     </p>
                                 </div>
                                 <div className="field">
                                     <p className="control is-expanded has-icons-left">
-                                        <input id="emailForm" className="input" type="email" placeholder="Email" required />
-                                        <span class="icon is-small is-left">
+                                        <input id="emailForm" className="input" type="email" placeholder="Email" name="email" required />
+                                        {/* <span class="icon is-small is-left">
                                             <i className="fa fa-envelope"></i>
-                                        </span>
+                                        </span> */}
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div className="field">
                             <p className="control">
-                                <input id="subjectForm" className="input" type="text" placeholder="Subject" required />
+                                <input id="subjectForm" className="input" type="text" placeholder="Subject" name="subject" required />
                             </p>
                         </div>
                         <div className="field is-horizontal">
                             <div className="field-body">
                                 <div className="field">
                                     <div className="control">
-                                        <textarea id="textForm" className="textarea"></textarea>
+                                        <textarea id="textForm" className="textarea" name="textarea"></textarea>
                                     </div>
                                 </div>
                             </div>

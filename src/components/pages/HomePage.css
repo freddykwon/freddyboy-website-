@@ -1,5 +1,12 @@
-#cover {
+/* .container {
+    position: relative;
+    width: 50%;
+  } */
+
+.cover {
     width: 500px;
     max-width: 100%;
     height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
