@@ -39,12 +39,12 @@ const ContactForm = () => {
                         <div className="field is-horizontal">
                             <div className="field-body">
                                 <div className="field">
-                                    <p className="control is-expanded has-icons-left">
+                                    <p className="control is-expanded">
                                         <input id="nameForm" className="input" type="text" placeholder="Name" name="name" required />
                                     </p>
                                 </div>
                                 <div className="field">
-                                    <p className="control is-expanded has-icons-left">
+                                    <p className="control is-expanded">
                                         <input id="emailForm" className="input" type="email" placeholder="Email" name="email" required />
                                         {/* <span class="icon is-small is-left">
                                             <i className="fa fa-envelope"></i>

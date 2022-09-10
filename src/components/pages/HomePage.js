@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import Shape from '../imgs/onandon_single_art_v1.png'
+import Shape from '../imgs/outnoww.png'
 import './HomePage.css'; 
 import Hover from 'react-3d-hover';
 
