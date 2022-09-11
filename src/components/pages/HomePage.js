@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import Shape from '../imgs/outnoww.png'
+import Shape from '../imgs/Asset 30.png'
 import './HomePage.css'; 
 import Hover from 'react-3d-hover';
 
