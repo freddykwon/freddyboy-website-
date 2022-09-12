@@ -9,7 +9,7 @@ const Home = () => {
         <div class="columns is-centered">
             <Hover speed={300} perspective={3000} max={25}>
                 <a href="https://linktr.ee/freddyboythings">
-                    <img className="cover"src={Shape} />
+                    <img className="cover"src={Shape} alt="main album cover heading" />
                 </a>
             </Hover>
         </div>

@@ -8,7 +8,7 @@ import AboutPic from '../imgs/about_pic.jpg';
 function About() {
     return (
         <Container>
-                <img id="aboutpic" src={AboutPic} className="text-decoration-underline" />
+                <img id="aboutpic" src={AboutPic} className="text-decoration-underline" alt="about picture" />
                 <p className="aboutMe">
                     <span className="bigtext">Toronto-based artist </span> <a href="/otherworks" className="bigtext" id="freddyk">Freddy Kwon </a> <span className="bigtext">began the project freddyboy in 2018 with a handful of experimental bedroom ideas recorded on his thrifted tape machine. </span>  
                 </p>

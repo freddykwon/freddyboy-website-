@@ -12,11 +12,6 @@ html, #navbar, #fbLogo, #navBarResp{
   text-align: center;
 }
 
-/* #mainShape {
-  width: 350px;
-  height: auto;
-} */
-
 .App-header {
   min-height: 100vh;
   display: flex;
