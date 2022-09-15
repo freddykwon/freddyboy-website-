@@ -1,7 +1,5 @@
 import React from 'react'
-// import { Col } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
 import './About.css';
 import AboutPic from '../imgs/about_pic.jpg';
 

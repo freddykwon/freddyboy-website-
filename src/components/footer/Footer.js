@@ -1,10 +1,13 @@
 import React from 'react';
-
+import {useLocation} from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faSpotify, faBandcamp, faSoundcloud } from "@fortawesome/free-brands-svg-icons";
 import './footer.css'
 
-const Footer = (props) => {
+const Footer = () => {
+    const {pathname} = useLocation();
+    console.log(pathname)
+    if (pathname === "/about") return null
     return (
         <footer className="footer">
             <div className="content has-text-centered">

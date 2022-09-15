@@ -11,12 +11,12 @@
 }
 
 #submitForm {
-    background-color: #35ff69;
+    background-color: #018adb;
     margin-top: 3rem;
     /* color: black; */
 }
 #sayHello {
-    width: 250px;
+    width: 200px;
     height: auto;
     display: block;
     margin-left: auto;
