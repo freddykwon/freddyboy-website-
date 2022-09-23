@@ -5,9 +5,9 @@ import { faInstagram, faSpotify, faBandcamp, faSoundcloud } from "@fortawesome/f
 import './footer.css'
 
 const Footer = () => {
-    const {pathname} = useLocation();
-    console.log(pathname)
-    if (pathname === "/about") return null
+    // const {pathname} = useLocation();
+    // console.log(pathname)
+    // if (pathname === "/about") return null
     return (
         <footer className="footer">
             <div className="content has-text-centered">
