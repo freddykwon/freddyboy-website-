@@ -1,12 +1,7 @@
-html, #navbar, #fbLogo, #navBarResp{
+html, #fbLogo, #navBarResp{
   background: #003699 !important;
 }
-/* //#FFF0C5 */
 
-/* body {
-  cursor: url('components/imgs/cursor.png'), default;
-
-} */
 .App {
   background-color: #003699;
   text-align: center;

@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/HomePage';
 import Music from './components/pages/MusicPage';
 import Merch from './components/pages/MerchPage';
-import About from './components/pages/About';
+import AboutFullPage from './components/pages/AboutFullPage';
 import Contact from './components/pages/ContactPage';
 import SideWork from './components/pages/OtherWorks';
 
@@ -17,12 +17,12 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="App">
-        <Navigation />
+        <Navigation/>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/music' element={<Music />} />
           <Route path='/merch' element={<Merch />} />
-          <Route path='/about' element={<About />} />
+          <Route path='/about' element={<AboutFullPage />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/otherworks' element={<SideWork />} />
         </Routes>
