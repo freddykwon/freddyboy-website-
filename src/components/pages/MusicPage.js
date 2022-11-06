@@ -1,15 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './MusicPage.css';
-import OtherWorks from '../imgs/other_works.png';
-import Alright from '../imgs/alright.png';
 import Vignette001 from '../imgs/vignette001.jpg';
-import Vignette002 from '../imgs/vignette002.png'
+import Vignette002 from '../imgs/vignette002.png';
+import OnAndOn from '../imgs/onandon_single_art_final.png';
 
 const Music = () => {
     return (
         // <section id="musicLinks">
         <div class="container text-center">
+            <div class="row" id="vignette002Row">
+                 <div class="col-sm-6 noPadding"> 
+                    <img className="albumCovers" id="OnAndOn" src={OnAndOn} />
+                </div>
+                <div id="test" class="col-sm noPadding">
+                    <iframe className="bandCamp"
+                            src="https://bandcamp.com/EmbeddedPlayer/track=4139238664/size=large/bgcol=ffffff/linkcol=333333/artwork=none/transparent=true/"
+                            seamless><Link to="https://freddyboy.bandcamp.com/track/on-and-on">On and On by freddyboy</Link>
+                    </iframe>
+                </div>
+            </div>
+           
             <div class="row" id="vignette002Row">
                  <div class="col-sm-6 noPadding"> 
                     <img className="albumCovers" id="vignette002" src={Vignette002} />
