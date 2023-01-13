@@ -4,11 +4,23 @@ import './MusicPage.css';
 import Vignette001 from '../imgs/vignette001.jpg';
 import Vignette002 from '../imgs/vignette002.png';
 import OnAndOn from '../imgs/onandon_single_art_final.png';
+import Fool4U from '../imgs/fool4u.png';
 
 const Music = () => {
     return (
         // <section id="musicLinks">
         <div class="container text-center">
+            <div class="row" id="vignette002Row">
+                 <div class="col-sm-6 noPadding"> 
+                    <img className="albumCovers" id="Fool4U" src={Fool4U} />
+                </div>
+                <div id="test" class="col-sm noPadding">
+                    <iframe className="bandCamp"
+                            src="https://bandcamp.com/EmbeddedPlayer/track=2972816846/size=large/bgcol=ffffff/linkcol=333333/artwork=none/transparent=true/"
+                            seamless><Link to="https://freddyboy.bandcamp.com/track/fool4u">Fool4U by freddyboy</Link>
+                    </iframe>
+                </div>
+            </div>        
             <div class="row" id="vignette002Row">
                  <div class="col-sm-6 noPadding"> 
                     <img className="albumCovers" id="OnAndOn" src={OnAndOn} />
