@@ -17,8 +17,8 @@ const Music = () => {
                 </div>
                 <div id="test" class="col-sm noPadding">
                     <iframe className="bandCamp"
-                            src="https://bandcamp.com/EmbeddedPlayer/track=4139238664/size=large/bgcol=ffffff/linkcol=333333/artwork=none/transparent=true/"
-                            seamless><Link to="https://freddyboy.bandcamp.com/track/on-and-on">On and On by freddyboy</Link>
+                            src="https://bandcamp.com/EmbeddedPlayer/album=788868527/size=large/bgcol=ffffff/linkcol=333333/artwork=none/transparent=true/"
+                            seamless><Link to="https://freddyboy.bandcamp.com/album/hobby">Hobby by freddyboy</Link>
                     </iframe>
                 </div>
             </div>
