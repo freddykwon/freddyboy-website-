@@ -33,9 +33,64 @@ const SideWork = (props) => {
                             <td>Guitar, Vocals, <br /> Synths, Keys, OP-1 Production </td>
                         </tr>
                         <tr className="content">
+                            <td className="a">2021</td>
+                            <td className="a"><a href="https://open.spotify.com/album/1EvFnzTIeKY5rZWlsAjkT0?si=5fbHmbgeSxWdyHSzZiar1Q"> freddyboy - Vignette002 </a></td>
+                            <td> Production </td>
+                        </tr>
+                        <tr className="content">
                             <td className="a">2022</td>
                             <td className="a"><a href="https://soundcloud.com/heapsband/sets/little-blue/s-E5yZoCClDLs?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"> Heaps - Little Blue </a></td>
                             <td> Production, Guitar, <br /> Synths, OP-1 Production </td>
+                        </tr>
+                        <tr className="content">
+                            <td className="a">2023</td>
+                            <td className="a"><a href="https://open.spotify.com/album/3iEzldp44ISBJouBgrnsxO?si=HNCbu-MbSPKGwLRxDP1nuw"> freddyboy - Hobby </a></td>
+                            <td> Production </td>
+                        </tr>
+                        <tr className="content">
+                            <td className="a">2023</td>
+                            <td className="a"><a href="https://open.spotify.com/track/5ElOILKwI0VVtSePdx7rUX?si=30fe1fccbaa8459d"> Intimidators - Precious Cargo </a></td>
+                            <td> Mixing </td>
+                        </tr>
+                        <tr className="content">
+                            <td className="a">2024</td>
+                            <td className="a"><a href="https://open.spotify.com/track/5aIJmUPowAtCymva4FlL5i?si=0a08e1904e084319"> Intimidators - Don't Look At Me </a></td>
+                            <td> Mixing </td>
+                        </tr>
+                        <tr className="content">
+                            <td className="a">2024</td>
+                            <td className="a"><a href="https://open.spotify.com/track/0Y01zHCv86yfVkgzTsBQUF?si=96096d80a01b4310"> Notbrian - Take Me Back </a></td>
+                            <td> Mixing </td>
+                        </tr>
+                        <tr className="content">
+                            <td className="a">2024</td>
+                            <td className="a"><a href="https://open.spotify.com/track/6UI7E0AJB5VX4r8EuSkCUB?si=f2c89c0a3d254b34"> Notbrian - Girl Next Door </a></td>
+                            <td> Mixing </td>
+                        </tr>
+                        <tr className="content">
+                            <td className="a">2024</td>
+                            <td className="a"><a href="https://open.spotify.com/track/2CVxvqeGNb8wrdaGmUVDFE?si=c6d73c2dc8db435e"> CASTLEBEAT - Birthday </a></td>
+                            <td> Production </td>
+                        </tr>
+                        <tr className="content">
+                            <td className="a">2024</td>
+                            <td className="a"><a href="https://open.spotify.com/track/2OgfGydOQCn4UyI4d529nw?si=387352f9705a4085"> CASTLEBEAT - Something Else </a></td>
+                            <td> Production </td>
+                        </tr>
+                        <tr className="content">
+                            <td className="a">2024</td>
+                            <td className="a"><a href="https://open.spotify.com/track/60kx13umSgrKvkkQLwTpTq?si=1f823761d4b545b8"> CASTLEBEAT - Stereo </a></td>
+                            <td> Production </td>
+                        </tr>
+                        <tr className="content">
+                            <td className="a">2024</td>
+                            <td className="a"><a href="https://open.spotify.com/track/4O6mKTS91897IYwXrkTh99?si=09c5c7b657144f34"> Sylo - Slow Down For A Minute </a></td>
+                            <td> Guitar, Production </td>
+                        </tr>
+                        <tr className="content">
+                            <td className="a">2025</td>
+                            <td className="a"><a href="https://open.spotify.com/track/6ieaayelEMxhR8wOIdGYRZ?si=b276a04b8a5e4612"> Hailey Henriques - falling for you </a></td>
+                            <td> Guitar, Bass & Production </td>
                         </tr>
                     </tbody>
                 </table>
